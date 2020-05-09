@@ -30,11 +30,11 @@ const IndexPage: FunctionComponent<FrameworkList> = (props) => {
   return (
     <div>
       <Head>
-        <title>Eval Next.js SSR with Dynamic Content</title>
+        <title>Eval Next.js SSR with Dynamic Content 1</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Eval Next.js SSR with Dynamic Content</h1>
+        <h1>Eval Next.js SSR with Dynamic Content 1</h1>
         <section><StatusComponent status={ true }/></section>
         <section><ListComponent list={ props.list }/></section>
       </main>
